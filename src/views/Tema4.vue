@@ -4,15 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
-      h1 <em>Skiing in the Alps was not that fun!</em> (¡Esquiar en los Alpes no fue tan divertido!)
-      
+        span 4
+      h1 <em>Linking ideas in the past</em> (Conectar ideas en el pasado)
+
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
-  components: {},
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
