@@ -18,7 +18,7 @@
           .bgr_1.p-4
             .titulo-sexto.color-acento-botones
               h5 Figura 1
-              span Simple Past
+              span <em>Simple Past</em>
             figure
               img(src="@/assets/curso/tema2/t2-2.svg", alt="alt")
     
@@ -39,12 +39,98 @@
         .col-12.col-md-8
           .bgr_4
             .d-flex.mb-5.p-5.justify-content-end
-              Audio.color-primario.mx-3(
+              Audio.color-acento-botones.mx-3(
                 :audio="require('@/assets/componentes/audios/dialogo4/01.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
-          TraduccionAudio.color-acento-contenido.pst_6.pst_7(:dialogo="dialogo2")
+          TraduccionAudio.color-acento-contenido.pst_6(:dialogo="dialogo2")
+    
+    .tarjeta.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/t2-6.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.mb-0 Después de escuchar la historia de Eva Hart, se evidencian en el texto algunas palabras subrayadas, que nos permiten identificar algunos verbos en pasado simple que fueron utilizados en algunos párrafos del texto. 
+    
+    span.colr Now, you are invited to listen to the following BBC Learning English Podcast where the grammatical concepts and the use of regular and irregular verbs using the simple past will be explained. 
+    span.colr_2 / Ahora, le invitamos a escuchar el podcast de la BBC Learning English, donde se explicarán los conceptos gramaticales y el uso de los verbos regulares e irregulares utilizando el pasado simple.
+
+    .bg_grad-06
+      .tarjeta.bgr_1.p-4.mb-5
+        SlyderA(tipo="b")
+          .row
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
+                :audio="require('@/assets/componentes/audios/dialogo5/01.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>Hello. Welcome to 6 Minute Grammar with me, Finn.</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>And me, Sophie. Hello.</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>In today’s programme we’re talking about the past simple tense…</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>… when we use it, how we form it for regular verbs…</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>… we’ll take a look at some irregular verbs, negative sentences and questions.</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>… and we’ll finish as usual with a quiz.</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>Ok - so let’s get started!</em>
+          .row
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
+                :audio="require('@/assets/componentes/audios/dialogo5/02.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>…The past simple is a tense in English that we use to talk about an event that happened and finished in the past. Here’s Neil with our first example:</em>
+              p.mb-0.text-bold.colr_1 <em>Neil</em>
+              p <em>Jack Dorsey invented Twitter in 2006.</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>Thanks, Neil. Now, we often find the past simple in stories like this:</em>
+              p.mb-0.text-bold.colr_1 <em>Neil</em>
+              p <em>The boy started running. Suddenly, he stopped and listened…</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>Wow - sounds like an exciting story! And it had three past simple verbs: started, stopped, and listened. </em>
+          .row
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
+                :audio="require('@/assets/componentes/audios/dialogo5/03.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>… and they are all regular verbs. We make the past simple of regular verbs by adding an ‘e’ and a ‘d’ to the infinitive.</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>… so the past simple of start is started,</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>… the past simple of stop is stopped</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>… and the past simple of listen is listened…</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>… did you spot the difference in the pronunciation there?</em>
+              p.mb-0.text-bold.colr_1 <em>Finn</em>
+              p <em>Yes, sometimes the ‘e’ and ‘d’ at the end sounds like a ‘t’. ‘t’. Listen: Stopped. Stopped.</em>
+              p.mb-0.text-bold.colr_1 <em>Sophie</em>
+              p <em>Sometimes it sounds more like ‘id’. ‘id’. Started. Started.</em>
+
+            
     
 
 </template>
@@ -69,7 +155,7 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em>What happened to the Titanic? <br><br> Eva´s story of survival <br><br> In this session, we heard the incredible tale of how seven-year-old Eva Hart survived the Titanic disaster. Now you´ll get a chance to study the grammar of the simple past and learn how to use these verb forms to tell stories. Listen to audio.</em>',
+          '<em><b>What happened to the Titanic?</b> <br><br> Eva´s story of survival <br><br> In this session, we heard the incredible tale of how seven-year-old <b>Eva Hart</b> survived the Titanic disaster. Now you´ll get a chance to study the grammar of the simple past and learn how to use these verb forms to tell stories. Listen to audio.</em>',
         textoEsp:
           '¿Qué pasó con el Titanic? <br><br> La historia de supervivencia de Eva Hart. <br><br> En esta sesión, escucharemos la increíble historia de cómo Eva Hart, de siete años, sobrevivió al desastre del Titanic. Ahora tendrá la oportunidad de estudiar la gramática del pasado simple y aprenderá a usar estas formas verbales para contar historias. Escuche el audio.',
       },
