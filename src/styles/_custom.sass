@@ -131,12 +131,25 @@
 //COLOR CONTENIDOS Y TEXTO//
 .colr
   color: #3C3FA7
+  &_1
+    color: $color-acento-botones
 //FONDOS//
 .bgr
   background-color: #FFF7DA
   &_1
     background-color: white
     border-radius: 20px
+  &_2
+    background-color: #FCF2CA
+    border-radius: 10px
+  &_3
+    background-color: #A6BBFF
+    border-radius: 10px
+  &_4
+    background-image: url("../assets/curso/tema2/t2-5.png")
+    background-repeat: no-repeat
+    background-size: cover
+
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -166,6 +179,50 @@
     width: calc(100% + 6rem)
     height: calc(100% + 6rem)
     background-color: #FCF2CA
+.bg_grad-03
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -7%
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 3rem)
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-04
+  position: relative
+  span, figure, p, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0  
+    top: -6%
+    left: 11%
+    width: 91%
+    height: 100%
+    background-color: white
+    border-radius: 10px
+.bg_grad-05
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -7%
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 3rem)
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
 //POSICION PANTALLA//
 .pst
   position: absolute
@@ -179,6 +236,38 @@
     position: absolute
     bottom: 60%
     left: -16%
+  &_3
+    margin-left: 2.7rem
+  &_4
+    border-radius: 10px
+    background-repeat: no-repeat
+    background-size: cover
+  &_5
+    .dialogo__chat
+      height: 100%
+  &_6
+    .traduccionAudio__chat__item__message__bubble
+      padding: 3rem
+  &_7
+    .traduccionAudio__chat__item__message__text__eng.textAudio__ing
+      span
+        font-weight: 400 !important
+
+//CLASES SOBREESCRITAS//
+.dialogo.color-acento-contenido   
+  button
+    background-color: #FC5F65
+    color: white
+.traduccionAudio__chat__item__message__bubble
+  background-color: #FCF2CA !important
+.traduccionAudio.color-acento-contenido 
+  button
+    background-color: #FC5F65 !important
+    color: white
+.traduccionAudio__chat__item__message__text__esp
+  hr
+    color: #FC5F65 
+
 
 
 
