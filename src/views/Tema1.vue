@@ -9,14 +9,14 @@
     
     .row.mb-5
       .col-12.col-md-7
-        p.colr.text-bold <em>When we talk about leisure activities, trips and life experiences, it is important to take into account all those activities that we do to have fun and discover other horizons, and that marked us for life. It is not about all those unimportant obligations and activities that we have in our daily lives.</em>
-        p Cuando hablamos de actividades de ocio, viajes y experiencias de vida, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos,  conocer otros horizontes, y que nos marcaron de por vida. No se trata de todas esas obligaciones y actividades sin importancia que tenemos en nuestra vida diaria.
+        p.colr <em>When we talk about leisure activities, trips and life experiences, it is important to take into account all those activities that we do to have fun and discover other horizons, and that marked us for life. It is not about all those unimportant obligations and activities that we have in our daily lives.</em>
+        p.colr_2 Cuando hablamos de actividades de ocio, viajes y experiencias de vida, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos,  conocer otros horizontes, y que nos marcaron de por vida. No se trata de todas esas obligaciones y actividades sin importancia que tenemos en nuestra vida diaria.
       .col-12.col-md-5
         figure
           img(src="@/assets/curso/tema1/t1-1.svg", alt="alt")
     
-    span.colr.text-bold Below is the following dialogue between two friends who have not seen each other for a long time. 
-    | /A continuación, se presenta el siguiente diálogo entre dos amigos que hace tiempo no se veían.
+    span.colr Below is the following dialogue between two friends who have not seen each other for a long time. 
+    span.colr_2 /A continuación, se presenta el siguiente diálogo entre dos amigos que hace tiempo no se veían.
 
     Dialogo.color-acento-contenido.mt-5.mb-5(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
@@ -31,8 +31,8 @@
           figure
             img(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
         .col-12.col-md-9
-          span.colr.text-bold <em>Expressions used in our daily lives, such as practicing a sport, going on a trip, or doing an activity,</em>
-          p.mb-5 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
+          span.colr <em>Expressions used in our daily lives, such as practicing a sport, going on a trip, or doing an activity,</em>
+          p.mb-5.colr_2 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
           SlyderF.slyder-arrows.mb-5(columnas="col-lg-3 col-xl-3")(data-aos="fade-left")
             .pst_4.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -42,7 +42,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Go to a concert</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Go to a concert</em>
                   p.mb-0.text-center Ir a un concierto
             .pst_4.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -52,7 +52,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Do karaoke</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Do karaoke</em>
                   p.mb-0.text-center Hacer karaoke
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -62,7 +62,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Run in a car race</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Run in a car race</em>
                   p.mb-0.text-center  Correr en una carrera automovilística
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-8.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -72,7 +72,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Practice scuba diving</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Practice scuba diving</em>
                   p.mb-0.text-center Bucear en el océano, practicar submarinismo
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -82,7 +82,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Go whale watching</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Go whale watching</em>
                   p.mb-0.text-center Ir a observar ballenas
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-10.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -92,7 +92,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Travel in a cruise</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Travel in a cruise</em>
                   p.mb-0.text-center Viajar en un crucero
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -102,7 +102,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Go on a student exchange</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Go on a student exchange</em>
                   p.mb-0.text-center Irse de intercambio estudiantil
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -112,7 +112,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Try exotic food</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Try exotic food</em>
                   p.mb-0.text-center Probar comida exótica
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -122,7 +122,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Take a cable car</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Take a cable car</em>
                   p.mb-0.text-center Tomar un teleférico
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-14.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -132,7 +132,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Climb a mountain</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Climb a mountain</em>
                   p.mb-0.text-center Escalar una montaña
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -142,7 +142,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Practice extreme sport</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Practice extreme sport</em>
                   p.mb-0.text-center Practicar deportes extremos
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -152,12 +152,12 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.colr_2.text-bold.text-center.colr_1 <em>Snow skiing</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Snow skiing</em>
                   p.mb-0.text-center Esquiar en la nieve
     
     div.mt-5.mb-5
-      span.colr.text-bold Now it's your turn to use the new vocabulary. Complete the following dialogue.
-      | / Ahora es su turno de usar el nuevo vocabulario. Complete el siguiente diálogo. 
+      span.colr Now it's your turn to use the new vocabulary. Complete the following dialogue.
+      span.colr_2 / Ahora es su turno de usar el nuevo vocabulario. Complete el siguiente diálogo. 
 
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo2")
       template(#nombre-actividad) Arrastrar y Soltar

@@ -135,6 +135,9 @@
     color: $color-acento-botones
   &_2
     color: #777777
+  &_3
+    color: $color-sistema-texto
+  
 //FONDOS//
 .bgr
   background-color: #FFF7DA
@@ -155,7 +158,38 @@
     background-color: #3C3FA7
     .audio__btn
       background-color: $color-acento-botones !important
-
+  &_6
+    background-color: #E1E8FF
+    border-radius: 10px
+  &_7
+    background-color: #FFDFE0
+    border: 2px solid #FC5F65
+    &:hover
+      background-color: #3C3FA7
+      border: 2px solid #3C3FA7
+      b, .colr
+        color: $color-secundario
+      .text-bold, .colr_3
+        color: white
+  &_8
+    background-color: white
+    border-radius: 20px
+    padding-left: 0.7em
+    i
+      font-weight: 900
+      color: #3C3FA7
+  &_9
+    background-color: #3C3FA7
+  &_10
+    em
+      color: $color-sistema-texto
+      padding: 2px 6px 5px
+      background-color: $color-secundario
+      border-radius: 10px
+    i
+      color: $color-primario
+    
+   
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -242,6 +276,19 @@
     width: calc(100% + 6rem)
     height: calc(100% + 6rem)
     background-color: #C4D1FF
+.bg_grad-07
+  position: relative
+  .row, span
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -48px
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 6rem)
+    background-color: #A6BBFF
 //POSICION PANTALLA//
 .pst
   position: absolute
@@ -267,6 +314,13 @@
   &_6
     .traduccionAudio__chat__item__message__bubble
       padding: 3rem
+  &_7
+    margin-bottom: 6rem
+  &_8
+    margin-top: 6rem
+  &_9
+    .traduccionAudio__chat__item__message__bubble
+      padding: 2em
 
 //CLASES SOBREESCRITAS//
 .dialogo.color-acento-contenido   
@@ -288,5 +342,9 @@
     font-weight: 400 !important
 .slyder-a__btn--sigt
   background-color: $color-acento-botones
+.slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.etiqueta
+  font-size: 1.125em
 
 
