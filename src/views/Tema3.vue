@@ -33,7 +33,7 @@
         figure
           img(src="@/assets/curso/tema3/t3-3.svg", alt="alt")
     
-    span.text-bold.etiqueta <em>When to use  </em>
+    span.text-bold.etiqueta <em>When to use</em>
     br
     br
     span.colr <em>These are the cases in which we can use the verb "used to": </em> 
@@ -275,13 +275,6 @@
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) <em>Now let's test how much you learned about the verb "used to". Complete the following dialogue.</em> / Ahora probemos cuánto aprendió del verbo "used to". Complete el siguiente diálogo.
-
-
-
-
-
-          
-
 
 </template>
 
