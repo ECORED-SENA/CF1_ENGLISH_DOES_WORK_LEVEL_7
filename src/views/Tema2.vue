@@ -209,7 +209,7 @@
     p.mb-5.text-center These are the cases in which we can use the past simple: 
       span.colr_2 / Estos son los casos en los que podemos usar el pasado simple:
     
-    .row.mb-5
+    .row.pst_7
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bgr_7.p-4.h-100
           p.text-center.colr <b><em>Use</em> / Uso</b>
@@ -536,7 +536,8 @@
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo5")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) <em>Let's practice a little with the structure of the simple past. Complete the following dialogue.</em> / Vamos a practicar un poco con la estructura del pasado simple. Complete el siguiente diálogo.
+
 
     
     

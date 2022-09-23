@@ -188,7 +188,40 @@
       border-radius: 10px
     i
       color: $color-primario
-    
+  &_11
+    background-color: #6B8DFC
+    border-radius: 20px
+  &_12
+    .traduccionAudio__chat__item__message__bubble
+      background-color: #C4D1FD !important
+      position: relative
+      margin-left: 50px
+      &::before
+        content: ""
+        display: block
+        top: 50%
+        left: 0
+        width: 15px
+        height: 15px
+        position: absolute
+        background: #C4D1FD
+        transform: translate(-45%,-50%) rotate(45deg)
+  &_13
+    .traduccionAudio__chat__item__message__bubble
+      margin-right: 50px
+      &::before
+        content: ""
+        display: block
+        position: absolute
+        right: 0
+        top: 50%
+        width: 15px
+        height: 15px
+        transform: translate(7px,-50%) rotate(-45deg)
+        background-color: #FCF2CA
+  &_14
+    background-color: #FFF7DA
+    border-radius: 20px
    
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -278,7 +311,7 @@
     background-color: #C4D1FF
 .bg_grad-07
   position: relative
-  .row, span
+  .row, span, p
     position: relative
   &::before
     content: ''
@@ -346,5 +379,9 @@
   background-color: $color-acento-botones
 .etiqueta
   font-size: 1.125em
+.dialogoTraduccionChat.color-acento-botones
+  border: none
 
-
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+    background: #E1E8FF 
+    background-image: linear-gradient(#6B8DFF, #6B8DFF);

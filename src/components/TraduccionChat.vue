@@ -3,9 +3,6 @@
   .row.justify-content-center.align-items-center.g-0
     .col-md-12
       .row.g-0.flex-nowrap.dialogoTraduccionChat__chat__item.mb-3(v-for="(line, lineIdx) in dialogoComputed")
-        .col-auto.dialogoTraduccionChat__chat__item__person
-          img(:src="line.personaje.img")
-          span.text-small(v-html="line.personaje.nombre")
         .col.dialogoTraduccionChat__chat__item__message__container
           .dialogoTraduccionChat__chat__item__message
             .row.g-0.align-items-center.dialogoTraduccionChat__chat__item__message__bubble
