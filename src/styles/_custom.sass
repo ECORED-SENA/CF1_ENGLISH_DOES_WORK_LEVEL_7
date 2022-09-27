@@ -60,10 +60,9 @@
   background-position: 40% 0%
   background-size: 50%
   animation: Flitp1 6s ease infinite
-  @media screen and (max-width: 992px)
+  @media screen and (max-width: $bp-max-sm)
     background-position: 17% 13%
     padding-top: 6rem !important
-    width: 560px
   @media screen and (max-width: 420px)
     background-image: none
     animation: none
@@ -284,6 +283,8 @@
     background-image: url("../assets/curso/tema1/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-xs)
+      top: -30px
 .bg_grad-04
   position: relative
   span, figure, p, .slyder-f
@@ -298,6 +299,11 @@
     height: 100%
     background-color: white
     border-radius: 10px
+    @media (max-width: $bp-max-xs)
+      left: 0
+      width: 100%
+      top: -10px
+      
 .bg_grad-05
   position: relative
   .row
@@ -344,16 +350,29 @@
   position: absolute
   top: 2%
   left: 96%
+  @media (max-width: $bp-max-xs)
+    left: 90%
   &_1
     position: absolute
     bottom: -11%
     left: 0
+    @media (max-width: $bp-max-sm)
+      bottom: -3%
+      left: -35px
   &_2
     position: absolute
     bottom: 60%
     left: -16%
+    @media (max-width: $bp-max-xs)
+      width: 70px
+      left: -36px
   &_3
     margin-left: 2.7rem
+    @media (max-width: $bp-max-sm)
+      margin-left: 9.7rem
+    @media (max-width: $bp-max-xs)
+      margin-left: 8rem
+      
   &_4
     border-radius: 10px
     background-repeat: no-repeat
@@ -407,3 +426,10 @@
     background-color: transparent
 .horizontal-scroll
   align-items: stretch !important
+.dialogoTraduccionChat
+  @media (max-width: $bp-max-sm)
+    padding: 1rem !important
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    margin: 0 6px;
+    

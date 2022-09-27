@@ -8,34 +8,34 @@
       h1 <em>Linking ideas in the past</em> (Conectar ideas en el pasado)
     
     .row
-      .col-12.col-md-5
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema4/t4-1.png", alt="alt")
-      .col-12.col-md-7
+      .col-12.col-md-7(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo1")
 
     separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 <em>Connectors</em> (Conectores)
     
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo2")
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-up-left")
         figure
           img(src="@/assets/curso/tema4/t4-2.svg", alt="alt")
     
-    .row.mb-5.bgr_11.p-3.p-md-5
+    .row.mb-5.bgr_11.p-3.p-lg-5
       p.text-bold.text-center.text-white <em>Dialogue</em> / Diálogo
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema4/t4-3.svg", alt="alt")
-      .col-12.col-md-6
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema4/t4-3.svg", alt="alt")
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="zoom-in")
         TraduccionChat.color-acento-botones(:dialogo="traduccionChat") 
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema4/t4-4.svg", alt="alt")
+      .col-12.col-md-3(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema4/t4-4.svg", alt="alt")
     
     span.text-bold.etiqueta <em>How to use</em>
     br
@@ -44,7 +44,7 @@
     span / En la siguiente tabla, veremos cómo usar algunos de los conectores más comunes en el tiempo pasado para conectar una acción o un evento a un punto en el tiempo; para unir dos cláusulas (u oraciones más pequeñas) para crear una gran oración compleja.
 
     .row.mb-3.mt-5.justify-content-center
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Tabla 1
           span Conectores
@@ -105,39 +105,39 @@
     span.colr <em>Now let's see what you have learned so far about the past tense and its connectors. Complete the following dialogue. </em>
     span / Ahora veamos qué ha aprendido hasta el momento sobre el tiempo pasado y sus conectores. Complete el siguiente diálogo. 
 
-    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo3")
+    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo3")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 <em>Expressions in the past</em> (Expresiones del pasado)
     
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo4")
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/t4-8.png", alt="alt")
     
-    .row.mb-5.bgr_11.p-3.p-md-5
+    .row.mb-5.bgr_11.p-3.p-lg-5
       p.text-bold.text-center.text-white <em>Dialogue: how was the concert yesterday?</em> / Diálogo: ¿cómo estuvo el concierto ayer?
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema4/t4-9.svg", alt="alt")
-      .col-12.col-md-6
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema4/t4-9.svg", alt="alt")
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="zoom-in")
         TraduccionChat.color-acento-botones(:dialogo="traduccionChat1") 
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema4/t4-10.svg", alt="alt")
+      .col-12.col-md-3(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema4/t4-10.svg", alt="alt")
     
     span.text-bold.etiqueta <em>How to use</em>
     
     .row.mb-5.mt-5
-      .col-12.col-md-4
-        TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo5")
+      .col-12.col-md-4.mb-3.mb-md-0
+        TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo5")(data-aos="flip-up")
       .col-12.col-md-8
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
           .tarjeta--boton.bgr_18.p-4.h-100
@@ -174,7 +174,7 @@
     span.colr <em>Now, let's see what you have learned so far about the past tense and the past time expressions. Complete the following dialogue. </em> 
     spam.colr_2 / Ahora veamos lo que ha aprendido hasta ahora sobre el tiempo pasado y las expresiones de tiempo pasado. Complete el siguiente diálogo. 
 
-    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo6")
+    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo6")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

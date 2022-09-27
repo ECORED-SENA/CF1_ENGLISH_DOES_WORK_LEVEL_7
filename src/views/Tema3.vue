@@ -8,11 +8,11 @@
       h1 <em>Use of “used to”</em> (Uso del "<em>used to</em>") 
 
     .row.mb-5
-      .col-12.col-md-5
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema3/t3-1.png", alt="alt")
       .col-12.col-md-7
-        TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo1") 
+        TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo1")(data-aos="flip-up") 
 
     p.mb-5 Se invita a explorar el video que se presenta a continuación:  
 
@@ -20,18 +20,18 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo2") 
+    TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo2")(data-aos="flip-up") 
 
-    .row.mb-5.bgr_11.p-3.p-md-5
+    .row.mb-5.bgr_11.p-3.p-lg-5
       p.text-bold.text-center <em>Dialogue</em> / Diálogo
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema3/t3-2.svg", alt="alt")
-      .col-12.col-md-6
+      .col-12.col-md-3(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema3/t3-2.svg", alt="alt")
+      .col-12.col-md-6(data-aos="zoom-in")
         TraduccionChat.color-acento-botones(:dialogo="traduccionChat") 
-      .col-12.col-md-3
-        figure
-          img(src="@/assets/curso/tema3/t3-3.svg", alt="alt")
+      .col-12.col-md-3(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img250(src="@/assets/curso/tema3/t3-3.svg", alt="alt")
     
     span.text-bold.etiqueta <em>When to use</em>
     br
@@ -40,7 +40,7 @@
     span / Estos son los casos en los que podemos utilizar el verbo <em>"used to"</em>:
 
     .row.mt-5.mb-5
-      .col-sm-6.mb-4.mb-lg-0
+      .col-sm-6.mb-4.mb-lg-0(data-aos="flip-left")
         .tarjeta--boton.bgr_7.p-4.h-100
           p.text-center <b><em>Past habits</em></b>
           span.text-center.colr_3 <em>The expression "used to" is used to talk about things that happened repeatedly in the past, but are no longer happening.</em> 
@@ -53,7 +53,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           figure
             img(src="@/assets/curso/tema3/t3-4.svg", alt="alt")
-      .col-sm-6.mb-4.mb-lg-0
+      .col-sm-6.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.bgr_7.p-4.h-100
           p.text-center <b><em>Past states</em></b>
           span.text-center.colr_3 <em>The expression "used to" is used with stative verbs to talk about things that were true in the past, but are no longer true.</em> 
@@ -70,15 +70,15 @@
     p.mb-5.text-center A continuación, se nombran algunas advertencias para identificar el uso correcto del <em>“Used to”</em>
 
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="flip-up")
         .bgr_14.p-3.p-md-5.h-100
-          figure
+          figure.mb-3.mb-lg-0
             img(src="@/assets/curso/tema3/t3-6.png", alt="alt")
           .row.justify-content-center.mb-3
-            .col-12.col-md-3
-              figure
-                img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-            .col-12.col-md-3.d-flex.align-items-end
+            .col-12.col-md-3.mb-3.mb-lg-0
+              figure.d-flex.justify-content-center
+                img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+            .col-12.col-md-3.d-flex.align-items-end.justify-content-center
               div
                 p.mb-0 <em>Warning # 1</em>
                 p.mb-0.colr_2 Advertencia #1
@@ -88,21 +88,21 @@
           p.mt-3.mb-3.text-bold.text-center <em>For example</em> / Por ejemplo:
 
           TarjetaAudio.color-acento-botones.mb-3.bgr_8(
-            texto="<em>Last year I went on vacation to Cancun and I had a lot of fun.<br>(NOT “Last year I used to go on vacation …)</em>"   
+            texto="<em>Last year I went on vacation to Cancun and I had a lot of fun.<br>(NOT “Last year I used to go on vacation…)</em>"   
             :audio="require('@/assets/componentes/audios/dialogo9/03.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="flip-down")
         .bgr_14.p-3.p-md-5  
-          figure
+          figure.mb-3.mb-lg-0
             img(src="@/assets/curso/tema3/t3-7.png", alt="alt")
           .row.justify-content-center.mb-3
-            .col-12.col-md-3
-              figure
-                img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-            .col-12.col-md-3.d-flex.align-items-end
+            .col-12.col-md-3.mb-3.mb-lg-0
+              figure.d-flex.justify-content-center
+                img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+            .col-12.col-md-3.d-flex.align-items-end.justify-content-center
               div
                 p.mb-0 <em>Warning # 1</em>
                 p.mb-0.colr_2 Advertencia #1
@@ -121,10 +121,10 @@
     .bg_grad-07.pst_8
       span.text-bold.etiqueta <em>How to use</em>
       .row.mt-3.mb-5
-        .col-12.col-md-4
+        .col-12.col-md-4(data-aos="flip-up")
           .bgr_2.p-4.mb-3
             TraduccionAudio.color-acento-contenido(:dialogo="dialogo3")
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="zoom-in")
           .tarjeta.bgr_1.p-4
             SlyderA(tipo="b")
               .row.justify-content-center
@@ -134,9 +134,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -153,9 +153,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -172,9 +172,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -191,9 +191,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -207,15 +207,15 @@
       p.mb-5.text-center A continuación, se nombran algunas advertencias para identificar el uso correcto del <em>“used to”</em> 
 
       .row.pst_7
-        .col-12.col-md-6
+        .col-12.col-md-6.mb-3.mb-lg-0(data-aos="flip-down")
           .bgr_14.p-3.p-md-5.h-100
-            figure
+            figure.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/t3-15.png", alt="alt")
             .row.justify-content-center.mb-3
-              .col-12.col-md-3
-                figure
-                  img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-              .col-12.col-md-3.d-flex.align-items-end
+              .col-12.col-md-3.mb-3.mb-lg-0
+                figure.d-flex.justify-content-center
+                  img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+              .col-12.col-md-3.d-flex.align-items-end.justify-content-center
                 div
                   p.mb-0 <em>Warning # 3</em>
                   p.mb-0.colr_2 Advertencia #3
@@ -231,15 +231,15 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mb-0 ¿Él solía viajar al extranjero de vacaciones cuando era niño?
-        .col-12.col-md-6
+        .col-12.col-md-6(data-aos="flip-up")
           .bgr_14.p-3.p-md-5  
-            figure
+            figure.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/t3-16.png", alt="alt")
             .row.justify-content-center.mb-3
-              .col-12.col-md-3
-                figure
-                  img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-              .col-12.col-md-3.d-flex.align-items-end
+              .col-12.col-md-3.mb-3.mb-lg-0
+                figure.d-flex.justify-content-center
+                  img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+              .col-12.col-md-3.d-flex.align-items-end.justify-content-center
                 div
                   p.mb-0 <em>Warning # 4</em>
                   p.mb-0.colr_2 Advertencia #4
@@ -267,7 +267,7 @@
     span.colr <em>Now let's test how much you learned about the verb "used to". Complete the following dialogue. </em>
     span / Ahora probemos cuánto aprendió del verbo <em>"used to"</em>. Complete el siguiente diálogo.
 
-    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo4")
+    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo4")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

@@ -25,14 +25,14 @@
     
     TraduccionAudio.color-acento-contenido.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
 
-    .bg_grad-03.p-5
+    .bg_grad-03.p-lg-5
       .row.bg_grad-04
         .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
-          figure
-            img(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
+          figure.d-flex.justify-content-center
+            img.img250(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
         .col-12.col-md-9
           span.colr <em>Expressions used in our daily lives, such as practicing a sport, going on a trip, or doing an activity,</em>
-          p.mb-5.colr_2 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
+          p.mb-0.mb-lg-5.colr_2 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
           SlyderF.slyder-arrows.mb-5(columnas="col-lg-3 col-xl-3")(data-aos="fade-left")
             .pst_4.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small

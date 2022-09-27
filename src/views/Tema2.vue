@@ -8,11 +8,11 @@
       h1 <em>Simple Past</em> (Pasado Simple)
     
     .row.mb-5
-      .col-12.col-md-5
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         .bgr_3.p-4.h-100.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/t2-1.svg", alt="alt")
-      .col-12.col-md-7
+      .col-12.col-md-7(data-aos="fade-left")
         .bgr_2.p-4
           TraduccionAudio.color-acento-contenido(:dialogo="dialogo")
           .bgr_1.p-4
@@ -25,15 +25,15 @@
     p.text-center.mb-5 A continuación, escucharemos el audio de la historia de supervivencia de Eva Hart sobre el hundimiento del Titanic.
 
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_6(:dialogo="dialogo1")
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema2/t2-3.svg", alt="alt")
     
     .bg_grad-05
       .row.mb-5
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema2/t2-4.png", alt="alt")
         .col-12.col-md-8
@@ -44,7 +44,7 @@
                 @audio-hover="mostrarIndicadorAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorAudio")
-          TraduccionAudio.color-acento-contenido.pst_6(:dialogo="dialogo2")
+          TraduccionAudio.color-acento-contenido.pst_6(:dialogo="dialogo2")(data-aos="flip-up")
     
     .tarjeta.color-secundario.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -60,7 +60,7 @@
       span.colr_2 / Ahora, le invitamos a escuchar el podcast de la BBC Learning English, donde se explicarán los conceptos gramaticales y el uso de los verbos regulares e irregulares utilizando el pasado simple.
 
     .bg_grad-06
-      .tarjeta.bgr_1.p-4.mb-5.mt-5
+      .tarjeta.bgr_1.p-4.mb-5.mt-5(data-aos="zoom-in")
         SlyderA(tipo="b")
           .row
             .col-md-6
@@ -198,9 +198,9 @@
               p <em>Hooray!</em>
     
     .row.mb-5.justify-content-center.pst_8
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-down")
         .row.bgr_6.p-5
-          .col-12.col-md-7.d-flex.align-items-center
+          .col-12.col-md-7.mb-3.mb-md-0.d-flex.align-items-center
             p.mb-0 En la siguiente imagen, podemos observar algunas expresiones de tiempo y de lugar que nos permiten identificar el momento en que estamos hablando del pasado simple en inglés.
           .col-12.col-md-5
             figure
@@ -210,7 +210,7 @@
       span.colr_2 / Estos son los casos en los que podemos usar el pasado simple:
     
     .row.pst_7
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta--boton.bgr_7.p-4.h-100
           h4.text-center.colr CASE 1
           p.text-center.colr <b><em>Use</em> / Uso</b>
@@ -223,7 +223,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="flip-left")
         .tarjeta--boton.bgr_7.p-4.h-100
           h4.text-center.colr CASE 2
           p.text-center.colr <b><em>Use</em> / Uso</b>
@@ -236,7 +236,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="flip-down")
         .tarjeta--boton.bgr_7.p-4.h-100
           h4.text-center.colr CASE 3
           p.text-center.colr <b><em>Use</em> / Uso</b>
@@ -249,7 +249,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="flip-right")
         .tarjeta--boton.bgr_7.p-4.h-100
           h4.text-center.colr CASE 4
           p.text-center.colr <b><em>Use</em> / Uso</b>
@@ -266,12 +266,12 @@
     .bg_grad-07
       span.text-bold.etiqueta <em>How to form</em>
       .row.mt-3
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-lg-0
           .bgr_2.p-4.mb-3
-            TraduccionAudio.color-acento-contenido(:dialogo="dialogo3")
+            TraduccionAudio.color-acento-contenido(:dialogo="dialogo3")(data-aos="flip-up")
           figure
             img(src="@/assets/curso/tema2/t2-9.svg", alt="alt")
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="zoom-in")
           .tarjeta.bgr_1.p-4
             SlyderA(tipo="b")
               .row.justify-content-center
@@ -280,9 +280,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-10.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -293,9 +293,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 Sandra fue una estudiante hace varios años.
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -528,7 +528,7 @@
                         p.mb-0 ¿Por qué nadaron todo el día?
 
     .pst_8
-      TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo4")
+      TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
     
     figure.mb-5
       .video
@@ -537,7 +537,7 @@
     span.colr Let's practice a little with the structure of the simple past. Complete the following dialogue. 
     span.colr_2 / Vamos a practicar un poco con la estructura del pasado simple. Complete el siguiente diálogo. 
 
-    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo5")
+    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo5")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
