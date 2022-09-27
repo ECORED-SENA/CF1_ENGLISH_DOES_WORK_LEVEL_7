@@ -17,9 +17,9 @@
         .col-12.col-md-8.d-flex.align-items-center
           .bgr_1.p-5.position-relative
             span En este nivel de nuestra formación bilingüe, para hablar de situaciones de nuestra vida personal ocurridas en el pasado, no solo debemos entender los conceptos más básicos del pasado simple, como lo es la conjugación tanto del verbo 
-            span.colr “to be” 
-            | como de los demás verbos en pasado, sino que también debemos concebir ideas y oraciones más complejas con la ayuda de expresiones que solo se encuentran en tiempo pasado, como
-            span.colr “used to”, 
+            span.colr.text-bold “<em>to be</em>” 
+            | como de los demás verbos en pasado, sino que también debemos concebir ideas y oraciones más complejas con la ayuda de expresiones que solo se encuentran en tiempo pasado, como 
+            span.colr.text-bold “<em>used to</em>”, 
             | conectores para crear oraciones compuestas y expresiones que nos permitan ubicar esas vivencias en el tiempo; todo esto apoyado con vocabulario nuevo sobre actividades de ocio, viajes y experiencias de vida. Le damos la bienvenida al estudio de este componente formativo y, para comenzar, se le invita a explorar el video que se presenta a continuación:	
             img.img80.pst(src="@/assets/curso/introduccion/img2.svg", alt="alt")
             img.img80.pst_1(src="@/assets/curso/introduccion/img3.svg", alt="alt")

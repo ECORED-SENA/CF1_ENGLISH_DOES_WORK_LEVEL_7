@@ -212,6 +212,7 @@
     .row.pst_7
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bgr_7.p-4.h-100
+          h4.text-center.colr CASE 1
           p.text-center.colr <b><em>Use</em> / Uso</b>
           span.text-center.colr <em>To express a completed action in the past (that started and finished in the past): </em> 
           span.text-center.colr_3 / Para expresar una acción completada en el pasado (que comenzó y terminó en el pasado):
@@ -224,8 +225,9 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bgr_7.p-4.h-100
+          h4.text-center.colr CASE 2
           p.text-center.colr <b><em>Use</em> / Uso</b>
-          span.text-center.colr <em>To list a series of completed actions in the past.</em> 
+          span.text-center.colr <em>To list a series of completed actions in the past. </em> 
           span.text-center.colr_3 / Para enlistar una serie de acciones completadas en el pasado.
           p.mt-3.text-center.text-bold <em>Example</em> / Ejemplo
           TarjetaAudio.color-acento-botones.bgr_8(
@@ -236,8 +238,9 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bgr_7.p-4.h-100
+          h4.text-center.colr CASE 3
           p.text-center.colr <b><em>Use</em> / Uso</b>
-          span.text-center.colr <em>To express habits or routines in the past.</em> 
+          span.text-center.colr <em>To express habits or routines in the past. </em> 
           span.text-center.colr_3 / Para expresar hábitos o rutinas en el pasado.
           p.mt-3.text-center.text-bold <em>Example</em> / Ejemplo
           TarjetaAudio.color-acento-botones.bgr_8(
@@ -248,12 +251,13 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bgr_7.p-4.h-100
+          h4.text-center.colr CASE 4
           p.text-center.colr <b><em>Use</em> / Uso</b>
-          span.text-center.colr <em>For stative verbs.</em> 
+          span.text-center.colr <em>For stative verbs. </em> 
           span.text-center.colr_3 / Para verbos estáticos.
           p.mt-3.text-center.text-bold <em>Example</em> / Ejemplo
           TarjetaAudio.color-acento-botones.bgr_8(
-            texto="You forgot to bring the invitation and that's why you couldn't get into the party."
+            texto="<i>You forgot</i> to bring the invitation and that's why <i>you couldn't get</i> into the party."
             :audio="require('@/assets/componentes/audios/dialogo6/04.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -272,7 +276,7 @@
             SlyderA(tipo="b")
               .row.justify-content-center
                 .col-12.col-md-10
-                  p.mb-5.text-center.text-bold <em>Affirmative structure- Verb “to be”</em> / Verbo <em>“to be”</em>
+                  p.mb-5.text-center.text-bold <em>Affirmative structure - Verb “to be”</em> / Verbo <em>“to be”</em>
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-10.svg', alt='Texto que describa la imagen')
                   .row.mb-3
@@ -303,7 +307,7 @@
                         p.mb-0 Ellos estaban en la piscina el domingo.
               .row.justify-content-center
                 .col-12.col-md-10
-                  p.mb-5.text-center.text-bold <em>Affirmative structure-  Other verbs</em> / Otros verbos
+                  p.mb-5.text-center.text-bold <em>Affirmative structure - Other verbs</em> / Otros verbos
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-11.svg', alt='Texto que describa la imagen')
                   .row.mb-3
@@ -334,7 +338,7 @@
                         p.mb-0 Ellos nadaron todo el día.
               .row.justify-content-center
                 .col-12.col-md-10
-                  p.mb-5.text-center.text-bold <em>Negative structure -Verb “to be”</em> / Verbo <em>“to be”</em>
+                  p.mb-5.text-center.text-bold <em>Negative structure - Verb “to be”</em> / Verbo <em>“to be”</em>
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
                   .row.mb-3
@@ -365,7 +369,7 @@
                         p.mb-0 Ellos no estuvieron en la piscina el domingo.
               .row.justify-content-center
                 .col-12.col-md-10
-                  p.mb-5.text-center.text-bold <em>Negative structure -Other verbs</em> / Otros verbos
+                  p.mb-5.text-center.text-bold <em>Negative structure -  Other verbs</em> / Otros verbos
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
                   .row.mb-3
@@ -388,7 +392,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="They <i>didn’</i> <em>swim</em> <i> all day.</i>"  
+                          texto="They <i>didn’t</i> <em>swim</em> <i> all day.</i>"  
                           :audio="require('@/assets/componentes/audios/dialogo6/12.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -493,7 +497,7 @@
               .row.justify-content-center
                 .col-12.col-md-10
                   p.mb-0.text-center.text-bold <em>Information Questions</em> / Preguntas de información
-                  p.mb-5.text-bold.text-center <em>Verb “to be”</em> / Verbo “to be”
+                  p.mb-5.text-bold.text-center <em>Other verbs</em> / Otros verbos
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
                   .row.mb-3
@@ -528,15 +532,15 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/IBLKkW632nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     span.colr Let's practice a little with the structure of the simple past. Complete the following dialogue. 
     span.colr_2 / Vamos a practicar un poco con la estructura del pasado simple. Complete el siguiente diálogo. 
 
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo5")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) <em>Let's practice a little with the structure of the simple past. Complete the following dialogue.</em> / Vamos a practicar un poco con la estructura del pasado simple. Complete el siguiente diálogo.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
     
@@ -564,7 +568,7 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em><b>What happened to the Titanic?</b> <br><br> Eva´s story of survival <br><br> In this session, we heard the incredible tale of how seven-year-old <b>Eva Hart</b> survived the Titanic disaster. Now you´ll get a chance to study the grammar of the simple past and learn how to use these verb forms to tell stories. Listen to audio.</em>',
+          '<em><b>What happened to the Titanic?</b> <br><br> Eva’s story of survival <br><br> In this session, we heard the incredible tale of how seven-year-old <b>Eva Hart</b> survived the Titanic disaster. Now you’ll get a chance to study the grammar of the simple past and learn how to use these verb forms to tell stories. Listen to audio.</em>',
         textoEsp:
           '¿Qué pasó con el Titanic? <br><br> La historia de supervivencia de Eva Hart. <br><br> En esta sesión, escucharemos la increíble historia de cómo Eva Hart, de siete años, sobrevivió al desastre del Titanic. Ahora tendrá la oportunidad de estudiar la gramática del pasado simple y aprenderá a usar estas formas verbales para contar historias. Escuche el audio.',
       },
@@ -572,7 +576,7 @@ export default {
     dialogo2: [
       {
         textoIng:
-          '<em>Before it <b>sank</b>, it <b>was</b> a very beautiful ship: stationary on the ocean, with all her lights on. It was dreadfully cold but the sea was the calmest I´d ever seen. The starlit night was the brightest I´d ever seen. <br> I <b>looked</b> back and <b>saw</b> the whole of that tragedy. And I <b>saw</b> that ship break in half. The front part <b>went</b> down and <b>left</b> the stern sticking up in a horrifying fashion. It <b>was</b> enormous. It <b>seemed</b> to stick up in the air for a long time. And then it gradually <b>went</b> down, turning over. <br><br> And after that there <b>was</b> the sound of the whole disaster. And that <b>was</b> people drowning. That is something you <b>could</b> never forget. And then the dreadful silence that <b>followed</b> it. It <b>seemed</b> as if the whole world <b>was</b> standing still.</em>',
+          '<em>Before she <b>sank</b>, she <b>was</b> a very beautiful ship: stationary on the ocean, with all her lights on. It was dreadfully cold but the sea was the calmest I’d ever seen. The starlit night was the brightest I’d ever seen. <br> I <b>looked</b> back and <b>saw</b> the whole of that tragedy. And I <b>saw</b> that ship break in half. The front part <b>went</b> down and <b>left</b> the stern sticking up in a horrifying fashion. It <b>was</b> enormous. It <b>seemed</b> to stick up in the air for a long time. And then it gradually <b>went</b> down, turning over. <br><br> And after that there <b>was</b> the sound of the whole disaster. And that <b>was</b> people drowning. That is something you <b>could</b> never forget. And then the dreadful silence that <b>followed</b> it. It <b>seemed</b> as if the whole world <b>was</b> standing still.</em>',
         textoEsp:
           'Antes de hundirse, era un barco muy hermoso: inmóvil en el océano, con todas sus luces encendidas. Hacía un frío espantoso, pero el mar era el más tranquilo que haya visto alguna vez. La noche estrellada fue la más brillante que jamás haya visto. <br>Miré hacia atrás y vi toda esa tragedia. Y vi ese barco partirse por la mitad. La parte delantera se hundió y dejó la popa sobresaliendo de forma espantosa. Era enorme. Pareció mantenerse en el aire durante mucho tiempo. Y luego fue bajando gradualmente, volteándose. <br><br> Y después de eso, permaneció el sonido de todo el desastre. Se trataba de gente ahogándose. Es algo que nunca podrías olvidar. Y luego el espantoso silencio que siguió. Parecía como si el mundo entero se hubiese detenido.',
       },
@@ -582,7 +586,7 @@ export default {
         textoIng:
           '<em>With the simple past tense, you have to be careful when forming sentences with the verb "to be" and with any of the other verbs, since there are some small differences in the grammar of the sentence. These are the sentence structures in the simple past tense:</em>',
         textoEsp:
-          'Con el tiempo pasado simple, hay que tener cuidado a la hora de formar oraciones con el verbo "to be" y con cualquiera de los otros verbos, porque existen unas pequeñas diferencias en la gramática de la oración.',
+          'Con el tiempo pasado simple, hay que tener cuidado a la hora de formar oraciones con el verbo "<em>to be</em>" y con cualquiera de los otros verbos, porque existen unas pequeñas diferencias en la gramática de la oración.',
       },
     ],
     dialogo4: [
@@ -610,7 +614,7 @@ export default {
           textoIng: '<em>Sir, *** you enjoy your flight?</em>',
           textoEsp: 'Señor, ¿disfrutó su vuelo?',
           audio: require('@/assets/componentes/audios/dialogo7/01.mp3'),
-          palabra: 'DID',
+          palabra: 'did',
         },
         {
           personaje: 'Passenger',
@@ -618,7 +622,7 @@ export default {
             '<em>Yes, it *** very quiet and I slept the whole trip.</em>',
           textoEsp: 'Sí, estuvo muy tranquilo y dormí todo el viaje.',
           audio: require('@/assets/componentes/audios/dialogo7/02.mp3'),
-          palabra: 'WAS',
+          palabra: 'was',
         },
       ],
     },

@@ -108,7 +108,7 @@
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo3")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) <em>Now let's see what you have learned so far about the past tense and its connectors. Complete the following dialogue.</em> / Ahora veamos qué ha aprendido hasta el momento sobre el tiempo pasado y sus conectores. Complete el siguiente diálogo. 
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     separador
 
@@ -177,7 +177,7 @@
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo6")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) <em>Now, let's see what you have learned so far about the past tense and the past time expressions. Complete the following dialogue. </em> / Ahora, veamos lo que ha aprendido hasta ahora sobre el tiempo pasado y las expresiones de tiempo pasado. Complete el siguiente diálogo. 
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     
 
@@ -231,20 +231,20 @@ export default {
         {
           personaje: 'Martin',
           textoIng:
-            '<em>Oh, poor thing! I´m sorry you *** enjoy your vacation.</em>',
+            '<em>Oh, poor thing! I’m sorry you</em> *** <em>enjoy your vacation.</em>',
           textoEsp:
             '¡Oh, pobrecita! Lamento que no disfrutaras tus vacaciones.',
           audio: require('@/assets/componentes/audios/dialogo10/05.mp3'),
-          palabra: 'DIDN’T',
+          palabra: 'didn’t',
         },
         {
           personaje: 'Andrea',
           textoIng:
-            '<em>Don´t worry. I was able to visit some wonderful beaches *** I got sick.</em>',
+            '<em>Don’t worry. I was able to visit some wonderful beaches</em> *** <em>I got sick.</em>',
           textoEsp:
             'No te preocupes. Pude visitar algunas playas maravillosas antes de enfermarme.',
           audio: require('@/assets/componentes/audios/dialogo10/06.mp3'),
-          palabra: 'BEFORE',
+          palabra: 'before',
         },
       ],
     },
@@ -259,7 +259,7 @@ export default {
     dialogo5: [
       {
         textoIng:
-          '<em>When it comes to saying when something happened, it can be done by pointing to a defined point in time, like <b>"last year, yesterday, two weeks ago"</b>, or it can be done by pointing to an indefinite point in time, like <b>"a long time ago, the other day, ages ago."</b> Let´s see some of the most common past expressions:</b>',
+          '<em>When it comes to saying when something happened, it can be done by pointing to a defined point in time, like <b>"last year, yesterday, two weeks ago"</b>, or it can be done by pointing to an indefinite point in time, like <b>"a long time ago, the other day, ages ago."</b> Let’s see some of the most common past expressions:</b>',
         textoEsp:
           'A la hora de decir cuándo ocurrió algo, se puede hacer señalando un punto definido en el tiempo, como "last year, yesterday, two weeks ago", o se puede hacer señalando un punto indefinido en el tiempo, como "a long time ago, the other day, ages ago". Veamos algunas de las expresiones más comunes del pasado:',
       },
@@ -278,19 +278,20 @@ export default {
       dialogo: [
         {
           personaje: 'Susana',
-          textoIng: '<em>You waited *** to go to a concert again.</em>',
+          textoIng:
+            '<em>You waited</em> *** <em>to go to a concert again.</em>',
           textoEsp: 'Esperaste mucho tiempo para volver a ir a un concierto.',
           audio: require('@/assets/componentes/audios/dialogo11/05.mp3'),
-          palabra: 'A LONG TIME',
+          palabra: 'a long time',
         },
         {
           personaje: 'Jonathan',
           textoIng:
-            '<em>Yes. I was very excited to see this singer live. I bought the tickets months ***!</em>',
+            '<em>Yes. I was very excited to see this singer live. I bought the tickets months</em> ***<em>!</em>',
           textoEsp:
             'Sí. Estaba muy emocionado de ver a este cantante en vivo. ¡Compré las boletas hace meses!',
           audio: require('@/assets/componentes/audios/dialogo11/06.mp3'),
-          palabra: 'BEFORE',
+          palabra: 'ago',
         },
       ],
     },
@@ -353,21 +354,21 @@ export default {
         },
         {
           textoIng:
-            '<em> It was great! You can´t imagine how much fun I had. Especially since the last time I listened to live music was two years ago, before the pandemic.</em>',
+            '<em> It was great! You can’t imagine how much fun I had. Especially since the last time I listened to live music was two years ago, before the pandemic.</em>',
           textoEsp:
             '¡Estuvo genial! No te imaginas lo bien que la pasé. Sobre todo porque la última vez que escuché música en vivo fue hace dos años, antes de la pandemia.',
           audio: require('@/assets/componentes/audios/dialogo11/02.mp3'),
         },
         {
           textoIng:
-            '<em>Really? I dared to go to a music festival last year, but there were very few people and it wasn´t that much fun.</em>',
+            '<em>Really? I dared to go to a music festival last year, but there were very few people and it wasn’t that much fun.</em>',
           textoEsp:
             '¿En serio? Yo me atreví a ir a un festival de música el año pasado, pero había muy poca gente y no fue tan divertido.',
           audio: require('@/assets/componentes/audios/dialogo11/03.mp3'),
         },
         {
           textoIng:
-            '<em>Yeah, that´s why I waited until this year to go to a concert again. By the way, the other day I heard on the radio that our favorite band is performing. We should go!</em>',
+            '<em>Yeah, that’s why I waited until this year to go to a concert again. By the way, the other day I heard on the radio that our favorite band is performing. We should go!</em>',
           textoEsp:
             'Sí, por eso esperé hasta este año para volver a ir a un concierto. Por cierto, el otro día oí en la radio que nuestra banda favorita se presenta. ¡Deberíamos ir!',
           audio: require('@/assets/componentes/audios/dialogo11/04.mp3'),

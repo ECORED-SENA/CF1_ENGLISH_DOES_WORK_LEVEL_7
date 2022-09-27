@@ -66,7 +66,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Use of “used to”</em> (Uso del "used to")',
+        titulo: '<em>Use of “used to”</em> (Uso del "<em>used to</em>")',
         desarrolloContenidos: true,
       },
       {
@@ -292,7 +292,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño <em>web</em>',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -310,8 +310,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Lina Marcela Perez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

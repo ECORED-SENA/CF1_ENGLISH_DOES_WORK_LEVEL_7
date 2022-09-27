@@ -21,7 +21,7 @@
     Dialogo.color-acento-contenido.mt-5.mb-5(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Dialogue meeting of friends</em> / Diálogo encuentro de amigos
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     TraduccionAudio.color-acento-contenido.mb-5(:dialogo="dialogo1")
 
@@ -142,7 +142,7 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.mb-0.text-bold.text-center.colr_1 <em>Practice extreme sport</em>
+                  p.mb-0.text-bold.text-center.colr_1 <em>Practice extreme sports</em>
                   p.mb-0.text-center Practicar deportes extremos
             .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
@@ -156,13 +156,13 @@
                   p.mb-0.text-center Esquiar en la nieve
     
     div.mt-5.mb-5
-      span.colr Now it's your turn to use the new vocabulary. Complete the following dialogue.
+      span.colr Now it's your turn to use the new vocabulary. Complete the following dialogue. 
       span.colr_2 / Ahora es su turno de usar el nuevo vocabulario. Complete el siguiente diálogo. 
 
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo2")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 </template>
 
@@ -193,7 +193,7 @@ export default {
           textoEsp:
             '¡Hola, Jimmy! Tiempo sin verte. Te ves muy bronceado... ¿Dónde estabas?',
           audio: require('@/assets/componentes/audios/dialogo1/01.mp3'),
-          palabra: 'WHERE',
+          palabra: 'where',
         },
         {
           personaje: 'Jimmy',
@@ -202,7 +202,7 @@ export default {
           textoEsp:
             '¡Hola, Susana! Estuve en San Andrés con mi familia. Viajamos en avión y pasamos unos días junto al mar la semana pasada.',
           audio: require('@/assets/componentes/audios/dialogo1/02.mp3'),
-          palabra: 'TRAVELED',
+          palabra: 'traveled',
         },
         {
           personaje: 'Susana',
@@ -211,7 +211,7 @@ export default {
           textoEsp:
             '¡Eso es genial! Yo viví en Nuquí cuando era niña, eso hace mucho tiempo, y extraño mucho la costa. Cuando estuve allí, solía practicar buceo e ir a observar ballenas.',
           audio: require('@/assets/componentes/audios/dialogo1/03.mp3'),
-          palabra: 'COAST',
+          palabra: 'coast',
         },
         {
           personaje: 'Jimmy',
@@ -220,7 +220,7 @@ export default {
           textoEsp:
             '¿En serio? ¡Suena increíble! Yo crecí en una ciudad suiza, así que los mejores planes para mí eran ir a un concierto, hacer karaoke, ver carreras de autos en el autódromo y, a veces, esquiar en los Alpes.',
           audio: require('@/assets/componentes/audios/dialogo1/04.mp3'),
-          palabra: 'SKIING',
+          palabra: 'skiing',
         },
       ],
     },
@@ -250,16 +250,16 @@ export default {
           textoIng: '<em>What was the best *** you had?</em>',
           textoEsp: '¿Cuáles fueron las mejores vacaciones que tuviste?',
           audio: require('@/assets/componentes/audios/dialogo3/01.mp3'),
-          palabra: 'VACATION',
+          palabra: 'vacation',
         },
         {
           personaje: 'Jimmy',
           textoIng:
             '<em>My best vacation was when I was 8 years old. We traveled on a cruise and tried exotic ***.</em>',
           textoEsp:
-            '¡Mis mejores vacaciones fueron cuando tenía 8 años. Viajamos en un crucero y probamos comida exótica.',
+            'Mis mejores vacaciones fueron cuando tenía 8 años. Viajamos en un crucero y probamos comida exótica.',
           audio: require('@/assets/componentes/audios/dialogo3/02.mp3'),
-          palabra: 'FOOD',
+          palabra: 'food',
         },
       ],
     },

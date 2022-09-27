@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 <em>Use of “used to”</em> (Uso del "used to") 
+      h1 <em>Use of “used to”</em> (Uso del "<em>used to</em>") 
 
     .row.mb-5
       .col-12.col-md-5
@@ -83,7 +83,7 @@
                 p.mb-0 <em>Warning # 1</em>
                 p.mb-0.colr_2 Advertencia #1
           span.colr <em>"Used to" is not used for things that happened only once, for this the simple past is used. </em> 
-          span.colr_2 / No se utiliza "used to" para cosas que ocurrieron una sola vez, para esto se utiliza el pasado simple.
+          span.colr_2 / No se utiliza "<em>used to</em>" para cosas que ocurrieron una sola vez, para esto se utiliza el pasado simple.
 
           p.mt-3.mb-3.text-bold.text-center <em>For example</em> / Por ejemplo:
 
@@ -94,7 +94,6 @@
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           p.mb-0 El año pasado fui de vacaciones a Cancún y me divertí mucho.
-          p.mb-0 (NO “El año pasado yo solía ir de vacaciones…)
       .col-12.col-md-6
         .bgr_14.p-3.p-md-5  
           figure
@@ -118,10 +117,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-          p.mb-0 ❌ Solía estudiar aquí. - Tiempo presente, esto está mal
-          p.mb-0 ✅ Estudio aquí. - Tiempo presente, esto es correcto
-          p.mb-0 ✅ Solía estudiar aquí. - Tiempo pasado, esto es
-    
+  
     .bg_grad-07.pst_8
       span.text-bold.etiqueta <em>How to use</em>
       .row.mt-3.mb-5
@@ -163,7 +159,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="You <i>didn’t</i> <em>used to</em> <i>use to practice extreme sports. </i>"  
+                          texto="You <i>didn’t</i> <em>use to</em> <i>use to practice extreme sports. </i>"  
                           :audio="require('@/assets/componentes/audios/dialogo9/06.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -182,7 +178,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="<i>Did</i> You <em>used to</em> <i>practice extreme sports?</i>" 
+                          texto="<i>Did</i> You <em>use to</em> <i>practice extreme sports?</i>" 
                           :audio="require('@/assets/componentes/audios/dialogo9/07.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -201,7 +197,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="<i>When Did</i> You <em>used to</em> <i>practice extreme sports?</i>"  
+                          texto="<i>When did</i> You <em>use to</em> <i>practice extreme sports?</i>"  
                           :audio="require('@/assets/componentes/audios/dialogo9/08.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -223,7 +219,7 @@
                 div
                   p.mb-0 <em>Warning # 3</em>
                   p.mb-0.colr_2 Advertencia #3
-            span.colr <em>" Be careful with negative and interrogative sentences because, when the auxiliary "did" is present, it is not written "used to" but "USE to" </em> 
+            span.colr <em>"Be careful with negative and interrogative sentences because, when the auxiliary "did" is present, it is not written "used to" but "USE to" </em> 
             span.colr_2 / Ten cuidado con las oraciones negativas e interrogativas, ya que, cuando el auxiliar <em>“did”</em> está presente, no se escribe <em>“used to”</em> sino <em>“USE to”</em>
 
             p.mt-3.mb-3.text-bold.text-center <em>For example</em> / Por ejemplo:
@@ -274,7 +270,7 @@
     Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo4")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
-      template(#descripcion-actividad) <em>Now let's test how much you learned about the verb "used to". Complete the following dialogue.</em> / Ahora probemos cuánto aprendió del verbo "used to". Complete el siguiente diálogo.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 </template>
 
@@ -293,7 +289,7 @@ export default {
         textoIng:
           '<em>The verb <b>"used to"</b> is a "marginal" modal verb (a verb that displays some but not all of the properties of a modal). Unlike the other modal verbs (such as can, could, may, might, will, etc.), the verb <b>"used to"</b> is only found in the <b>past tense.</b></em>',
         textoEsp:
-          'El verbo "used to" es un verbo modal "marginal" (un verbo que muestra algunas, pero no todas las propiedades de un modal). A diferencia de los otros verbos modales (can, could, may, might, will, etc.), el verbo "used to" solo se encuentra en tiempo pasado.',
+          'El verbo "<em>used to</em>" es un verbo modal "marginal" (un verbo que muestra algunas, pero no todas las propiedades de un modal). A diferencia de los otros verbos modales (<em>can, could, may, might, will</em>, etc.), el verbo "<em>used to</em>" solo se encuentra en tiempo pasado.',
       },
     ],
     dialogo2: [
@@ -309,7 +305,7 @@ export default {
         textoIng:
           '<em>To form sentences with "used to", certain grammatical details must be taken into account, like it is a semi-modal verb and that is why it is used together with another main verb that is in base form, and since it is only found in the past tense, for negative and interrogative structures it is used with the auxiliary "did". <br><br> These are the sentence structures with the verb "used to":</em>',
         textoEsp:
-          'Para formar oraciones con "used to", hay que tener en cuenta ciertos detalles gramaticales, como que es un verbo semimodal y por eso se utiliza en conjunto con otro verbo principal que va en forma base, y que, como solo se encuentra en tiempo pasado, para las estructuras negativas e interrogativas se utiliza con el auxiliar "did".<br><br>Estas son las estructuras de las oraciones con el verbo "used to":',
+          'Para formar oraciones con "<em>used to</em>", hay que tener en cuenta ciertos detalles gramaticales, como que es un verbo semimodal y por eso se utiliza en conjunto con otro verbo principal que va en forma base, y que, como solo se encuentra en tiempo pasado, para las estructuras negativas e interrogativas se utiliza con el auxiliar "<em>did</em>".<br><br>Estas son las estructuras de las oraciones con el verbo "<em>used to</em>":',
       },
     ],
     dialogo4: {
@@ -327,20 +323,20 @@ export default {
         {
           personaje: 'Sebastian',
           textoIng:
-            '<em>*** you use to hike in the savannah or just in the mountains?</em>',
+            '*** <em>you use to hike in the savannah or just in the mountains?</em>',
           textoEsp:
             '¿Tú solías hacer caminatas en la sabana o solo en montañas?',
           audio: require('@/assets/componentes/audios/dialogo9/12.mp3'),
-          palabra: 'DID',
+          palabra: 'did',
         },
         {
           personaje: 'Nicole',
           textoIng:
-            '<em>Yes, before I specialized in mountain climbing, I *** to hike in the savannah and also in forests and nature reserves.</em>',
+            '<em>Yes, before I specialized in mountain climbing, I</em> *** <em>to hike in the savannah and also in forests and nature reserves.</em>',
           textoEsp:
             'Sí, antes de especializarme en montañismo, solía hacer caminatas por la sabana y también en bosques y reservas naturales.',
           audio: require('@/assets/componentes/audios/dialogo9/13.mp3'),
-          palabra: 'USED',
+          palabra: 'used',
         },
       ],
     },
@@ -363,7 +359,7 @@ export default {
         },
         {
           textoIng:
-            '<em>It wasn´t a good hike. I got to the top of the mountain very tired and took more time than I thought</em>',
+            '<em>It wasn’t a good hike. I got to the top of the mountain very tired and took me more time than I thought</em>',
           textoEsp:
             'No fue una buena caminata. Llegué a la cima de la montaña muy cansada y tardé más de lo que pensaba.',
           audio: require('@/assets/componentes/audios/dialogo8/02.mp3'),
@@ -375,7 +371,7 @@ export default {
         },
         {
           textoIng:
-            '<em>Yes, but that was before I enrolled in the master´s degree. Before the master´s degree I used to train 5 days a week, now, if I´m lucky, I can train 1 or 2 days a week.</em>',
+            '<em>Yes, but that was before I enrolled in the master’s degree. Before the master’s degree I used to train 5 days a week, now, if I’m lucky, I can train 1 or 2 days a week.</em>',
           textoEsp:
             'Sí, pero eso fue antes de matricularme en la maestría. Antes de la maestría, solía entrenar 5 días a la semana, ahora, si tengo suerte, puedo entrenar 1 o 2 días a la semana.',
           audio: require('@/assets/componentes/audios/dialogo8/04.mp3'),
