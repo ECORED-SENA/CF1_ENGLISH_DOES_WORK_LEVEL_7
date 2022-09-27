@@ -93,7 +93,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-          p.mb-0 El año pasado fui de vacaciones a Cancún y me divertí mucho.
+          
       .col-12.col-md-6
         .bgr_14.p-3.p-md-5  
           figure
@@ -178,7 +178,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="<i>Did</i> You <em>use to</em> <i>practice extreme sports?</i>" 
+                          texto="<i>Did</i> you <em>use to</em> <i>practice extreme sports?</i>" 
                           :audio="require('@/assets/componentes/audios/dialogo9/07.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -197,7 +197,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="<i>When did</i> You <em>use to</em> <i>practice extreme sports?</i>"  
+                          texto="<i>When did</i> you <em>use to</em> <i>practice extreme sports?</i>"  
                           :audio="require('@/assets/componentes/audios/dialogo9/08.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )

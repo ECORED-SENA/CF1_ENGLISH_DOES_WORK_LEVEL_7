@@ -8,26 +8,26 @@
       h1 <em>Skiing in the Alps was not that fun!</em> (¡Esquiar en los Alpes no fue tan divertido!)
     
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
         p.colr <em>When we talk about leisure activities, trips and life experiences, it is important to take into account all those activities that we do to have fun and discover other horizons, and that marked us for life. It is not about all those unimportant obligations and activities that we have in our daily lives.</em>
         p.colr_2 Cuando hablamos de actividades de ocio, viajes y experiencias de vida, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos,  conocer otros horizontes, y que nos marcaron de por vida. No se trata de todas esas obligaciones y actividades sin importancia que tenemos en nuestra vida diaria.
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/t1-1.svg", alt="alt")
     
     span.colr Below is the following dialogue between two friends who have not seen each other for a long time. 
     span.colr_2 /A continuación, se presenta el siguiente diálogo entre dos amigos que hace tiempo no se veían.
 
-    Dialogo.color-acento-contenido.mt-5.mb-5(:dialogo="dialogo")
+    Dialogo.color-acento-contenido.mt-5.mb-5(:dialogo="dialogo")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Dialogue meeting of friends</em> / Diálogo encuentro de amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
-    TraduccionAudio.color-acento-contenido.mb-5(:dialogo="dialogo1")
+    TraduccionAudio.color-acento-contenido.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
 
     .bg_grad-03.p-5
       .row.bg_grad-04
-        .col-12.col-md-3
+        .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
         .col-12.col-md-9
@@ -159,7 +159,7 @@
       span.colr Now it's your turn to use the new vocabulary. Complete the following dialogue. 
       span.colr_2 / Ahora es su turno de usar el nuevo vocabulario. Complete el siguiente diálogo. 
 
-    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo2")
+    Dialogo.color-acento-contenido.mt-5.mb-5.pst_5(:dialogo="dialogo2")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Practice dialogue</em> / Diálogo de práctica amigos
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
