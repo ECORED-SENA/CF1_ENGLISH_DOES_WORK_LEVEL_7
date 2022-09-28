@@ -311,7 +311,7 @@ export default {
           textoIng:
             '<em>Andrea, I saw some photos of very beautiful beaches on your social networks. Where did you take them?</em>',
           textoEsp:
-            'Andrea, vi fotos de unas playas muy hermosas en tus redes sociales. ¿Dónde las tomaste?.',
+            'Andrea, vi fotos de unas playas muy hermosas en tus redes sociales. ¿Dónde las tomaste?',
           audio: require('@/assets/componentes/audios/dialogo10/01.mp3'),
         },
         {
