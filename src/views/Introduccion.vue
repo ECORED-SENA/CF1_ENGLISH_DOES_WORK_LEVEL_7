@@ -11,10 +11,10 @@
     
     .bg_grad-01
       .row.p-4.mb-5
-        .col-12.col-md-4(data-aos="fade-right")
-          figure
-            img(src="@/assets/curso/introduccion/img1.png", alt="alt")
-        .col-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
+        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+          figure.d-flex.justify-content-center
+            img.img400(src="@/assets/curso/introduccion/img1.png", alt="alt")
+        .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
           .bgr_1.p-5.position-relative
             span En este nivel de nuestra formación bilingüe, para hablar de situaciones de nuestra vida personal ocurridas en el pasado, no solo debemos entender los conceptos más básicos del pasado simple, como lo es la conjugación tanto del verbo 
             span.colr.text-bold “<em>to be</em>” 

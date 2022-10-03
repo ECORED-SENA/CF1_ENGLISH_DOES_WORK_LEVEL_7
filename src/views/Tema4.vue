@@ -141,32 +141,32 @@
       .col-12.col-md-8
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
           .tarjeta--boton.bgr_18.p-4.h-100
-            figure
-              img(src="@/assets/curso/tema4/t4-11.svg", alt="alt")
+            figure.d-flex.justify-content-center
+              img.img200(src="@/assets/curso/tema4/t4-11.svg", alt="alt")
             p.text-center.text-bold.colr_1 <em>Yesterday morning.</em>
             p.text-center.text-bold.colr_3 <b><em>I received the package yesterday morning.</em></b> 
             p.mt-3.text-center.colr_2 Recibí el paquete ayer por la mañana. 
           .tarjeta--boton.bgr_18.p-4.h-100
-            figure
-              img(src="@/assets/curso/tema4/t4-12.svg", alt="alt")
+            figure.d-flex.justify-content-center
+              img.img200(src="@/assets/curso/tema4/t4-12.svg", alt="alt")
             p.text-center.text-bold.colr_1 <em>Last night.</em>
             p.text-center.text-bold.colr_3 <b><em>Last night, we went dancing.</em></b> 
             p.mt-3.text-center.colr_2 Anoche fuimos a bailar.
           .tarjeta--boton.bgr_18.p-4.h-100
-            figure
-              img(src="@/assets/curso/tema4/t4-13.svg", alt="alt")
+            figure.d-flex.justify-content-center
+              img.img200(src="@/assets/curso/tema4/t4-13.svg", alt="alt")
             p.text-center.text-bold.colr_1 <em>Six months ago</em>
             p.text-center.text-bold.colr_3 <b><em>She got her visa six months ago.</em></b> 
             p.mt-3.text-center.colr_2 Ella obtuvo su visa hace seis meses. 
           .tarjeta--boton.bgr_18.p-4.h-100
-            figure
-              img(src="@/assets/curso/tema4/t4-14.svg", alt="alt")
+            figure.d-flex.justify-content-center
+              img.img200(src="@/assets/curso/tema4/t4-14.svg", alt="alt")
             p.text-center.text-bold.colr_1 <em>The other day.</em>
             p.text-center.text-bold.colr_3 <b><em>Samuel called me the other day.</em></b> 
             p.mt-3.text-center.colr_2 Samuel me llamó el otro día. 
           .tarjeta--boton.bgr_18.p-4.h-100
-            figure
-              img(src="@/assets/curso/tema4/t4-15.svg", alt="alt")
+            figure.d-flex.justify-content-center
+              img.img200(src="@/assets/curso/tema4/t4-15.svg", alt="alt")
             p.text-center.text-bold.colr_1 <em>A long time.</em>
             p.text-center.text-bold.colr_3 <b><em>They worked at the hospital for a long time.</em></b> 
             p.mt-3.text-center.colr_2 Ellos trabajaron en el hospital durante mucho tiempo.

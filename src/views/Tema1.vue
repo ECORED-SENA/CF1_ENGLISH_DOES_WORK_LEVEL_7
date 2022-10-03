@@ -29,12 +29,12 @@
       .row.bg_grad-04
         .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
-            img.img250(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
+            img.pst_10(src="@/assets/curso/tema1/t1-4.svg", alt="alt")
         .col-12.col-md-9
           span.colr <em>Expressions used in our daily lives, such as practicing a sport, going on a trip, or doing an activity,</em>
-          p.mb-0.mb-lg-5.colr_2 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
+          p.mb-0.colr_2 Expresiones utilizadas en nuestra vida cotidiana, como practicar un deporte, salir de viaje, o hacer una actividad.
           SlyderF.slyder-arrows.mb-5(columnas="col-lg-3 col-xl-3")(data-aos="fade-left")
-            .pst_4.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -44,7 +44,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Go to a concert</em>
                   p.mb-0.text-center Ir a un concierto
-            .pst_4.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -54,7 +54,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Do karaoke</em>
                   p.mb-0.text-center Hacer karaoke
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -64,7 +64,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Run in a car race</em>
                   p.mb-0.text-center  Correr en una carrera automovilística
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-8.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-8.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -74,7 +74,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Practice scuba diving</em>
                   p.mb-0.text-center Bucear en el océano, practicar submarinismo
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -84,7 +84,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Go whale watching</em>
                   p.mb-0.text-center Ir a observar ballenas
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-10.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-10.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -94,7 +94,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Travel in a cruise</em>
                   p.mb-0.text-center Viajar en un crucero
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -104,7 +104,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Go on a student exchange</em>
                   p.mb-0.text-center Irse de intercambio estudiantil
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -114,7 +114,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Try exotic food</em>
                   p.mb-0.text-center Probar comida exótica
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -124,7 +124,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Take a cable car</em>
                   p.mb-0.text-center Tomar un teleférico
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-14.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-14.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -134,7 +134,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Climb a mountain</em>
                   p.mb-0.text-center Escalar una montaña
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(
@@ -144,7 +144,7 @@
                     .indicador--click(v-if="mostrarIndicadorAudio")
                   p.mb-0.text-bold.text-center.colr_1 <em>Practice extreme sports</em>
                   p.mb-0.text-center Practicar deportes extremos
-            .tarjeta.p-2.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 347px')
+            .p-2.d-flex.align-items-end.pst_8.pst_4.slyderF-media(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 347px')
               .tarjeta.bg-white.p-2.w-100.text-small
                 div
                   Audio.color-acento-botones.pst_3(

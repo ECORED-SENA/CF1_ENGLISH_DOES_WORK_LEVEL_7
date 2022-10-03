@@ -8,11 +8,11 @@
       h1 <em>Simple Past</em> (Pasado Simple)
     
     .row.mb-5
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         .bgr_3.p-4.h-100.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/t2-1.svg", alt="alt")
-      .col-12.col-md-7(data-aos="fade-left")
+      .col-12.col-lg-7(data-aos="fade-left")
         .bgr_2.p-4
           TraduccionAudio.color-acento-contenido(:dialogo="dialogo")
           .bgr_1.p-4
@@ -89,7 +89,7 @@
           .row
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/02.mp3')"
@@ -109,7 +109,7 @@
           .row
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/03.mp3')"
@@ -133,7 +133,7 @@
           .row
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/04.mp3')"
@@ -155,7 +155,7 @@
           .row
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/05.mp3')"
@@ -177,7 +177,7 @@
           .row
             .col-md-6
               figure
-                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-27.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/06.mp3')"
@@ -556,7 +556,6 @@ export default {
     TraduccionAudio,
   },
   data: () => ({
-    mostrarIndicadorTarjetaAudio: true,
     dialogo: [
       {
         textoIng:

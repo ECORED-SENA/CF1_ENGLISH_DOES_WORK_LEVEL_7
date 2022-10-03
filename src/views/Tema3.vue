@@ -71,14 +71,14 @@
 
     .row.mb-5
       .col-12.col-md-6(data-aos="flip-up")
-        .bgr_14.p-3.p-md-5.h-100
+        .bgr_14.p-3.p-lg-5.h-100
           figure.mb-3.mb-lg-0
             img(src="@/assets/curso/tema3/t3-6.png", alt="alt")
           .row.justify-content-center.mb-3
-            .col-12.col-md-3.mb-3.mb-lg-0
+            .col-12.col-lg-3.mb-3.mb-lg-0
               figure.d-flex.justify-content-center
                 img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-            .col-12.col-md-3.d-flex.align-items-end.justify-content-center
+            .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
               div
                 p.mb-0 <em>Warning # 1</em>
                 p.mb-0.colr_2 Advertencia #1
@@ -95,14 +95,14 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           
       .col-12.col-md-6(data-aos="flip-down")
-        .bgr_14.p-3.p-md-5  
+        .bgr_14.p-3.p-lg-5  
           figure.mb-3.mb-lg-0
             img(src="@/assets/curso/tema3/t3-7.png", alt="alt")
           .row.justify-content-center.mb-3
-            .col-12.col-md-3.mb-3.mb-lg-0
+            .col-12.col-lg-3.mb-3.mb-lg-0
               figure.d-flex.justify-content-center
                 img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-            .col-12.col-md-3.d-flex.align-items-end.justify-content-center
+            .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
               div
                 p.mb-0 <em>Warning # 1</em>
                 p.mb-0.colr_2 Advertencia #1
@@ -208,14 +208,14 @@
 
       .row.pst_7
         .col-12.col-md-6.mb-3.mb-lg-0(data-aos="flip-down")
-          .bgr_14.p-3.p-md-5.h-100
+          .bgr_14.p-3.p-lg-5.h-100
             figure.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/t3-15.png", alt="alt")
             .row.justify-content-center.mb-3
-              .col-12.col-md-3.mb-3.mb-lg-0
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-              .col-12.col-md-3.d-flex.align-items-end.justify-content-center
+              .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
                 div
                   p.mb-0 <em>Warning # 3</em>
                   p.mb-0.colr_2 Advertencia #3
@@ -232,14 +232,14 @@
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mb-0 ¿Él solía viajar al extranjero de vacaciones cuando era niño?
         .col-12.col-md-6(data-aos="flip-up")
-          .bgr_14.p-3.p-md-5  
+          .bgr_14.p-3.p-lg-5  
             figure.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/t3-16.png", alt="alt")
             .row.justify-content-center.mb-3
-              .col-12.col-md-3.mb-3.mb-lg-0
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 figure.d-flex.justify-content-center
                   img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
-              .col-12.col-md-3.d-flex.align-items-end.justify-content-center
+              .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
                 div
                   p.mb-0 <em>Warning # 4</em>
                   p.mb-0.colr_2 Advertencia #4
