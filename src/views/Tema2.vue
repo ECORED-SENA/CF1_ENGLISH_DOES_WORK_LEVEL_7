@@ -25,18 +25,18 @@
     p.text-center.mb-5 A continuación, escucharemos el audio de la historia de supervivencia de Eva Hart sobre el hundimiento del Titanic.
 
     .row.mb-5
-      .col-12.col-md-7.mb-3.mb-md-0(data-aos="flip-up")
+      .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_6(:dialogo="dialogo1")
-      .col-12.col-md-4(data-aos="fade-right")
-        figure
-          img(src="@/assets/curso/tema2/t2-3.svg", alt="alt")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img400(src="@/assets/curso/tema2/t2-3.svg", alt="alt")
     
     .bg_grad-05
       .row.mb-5
-        .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
+        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
           figure
-            img(src="@/assets/curso/tema2/t2-4.png", alt="alt")
-        .col-12.col-md-8
+            img.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-4.png", alt="alt")
+        .col-12.col-lg-8
           .bgr_4
             .d-flex.mb-5.p-5.justify-content-end
               Audio.color-acento-botones.mx-3(
@@ -60,13 +60,13 @@
       span.colr_2 / Ahora, le invitamos a escuchar el podcast de la BBC Learning English, donde se explicarán los conceptos gramaticales y el uso de los verbos regulares e irregulares utilizando el pasado simple.
 
     .bg_grad-06
-      .tarjeta.bgr_1.p-4.mb-5.mt-5(data-aos="zoom-in")
+      .tarjeta.bgr_1.p-4.pst_7.mt-5(data-aos="zoom-in")
         SlyderA(tipo="b")
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/01.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -87,10 +87,10 @@
               p.mb-0.text-bold.colr_1 <em>Finn</em>
               p <em>Ok - so let’s get started!</em>
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/02.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -107,10 +107,10 @@
               p.mb-0.text-bold.colr_1 <em>Finn</em>
               p <em>Wow - sounds like an exciting story! And it had three past simple verbs: started, stopped, and listened. </em>
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/03.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -131,10 +131,10 @@
               p.mb-0.text-bold.colr_1 <em>Sophie</em>
               p <em>Sometimes it sounds more like ‘id’. ‘id’. Started. Started.</em>
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/04.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -153,10 +153,10 @@
               p.mb-0.text-bold.colr_1 <em>Finn</em>
               p <em>That's true: can you give us some examples of irregular verbs, please, Neil?</em>
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/05.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -175,10 +175,10 @@
               p.mb-0.text-bold.colr_1 <em>Finn</em>
               p <em>...and make is made</em>
           .row
-            .col-md-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/t2-27.svg', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_5.mb-3(
                 :audio="require('@/assets/componentes/audios/dialogo5/06.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -266,16 +266,16 @@
     .bg_grad-07
       span.text-bold.etiqueta <em>How to form</em>
       .row.mt-3
-        .col-12.col-md-4.mb-3.mb-lg-0
+        .col-12.col-lg-4.mb-3.mb-lg-0
           .bgr_2.p-4.mb-3
             TraduccionAudio.color-acento-contenido(:dialogo="dialogo3")(data-aos="flip-up")
           figure
-            img(src="@/assets/curso/tema2/t2-9.svg", alt="alt")
-        .col-12.col-md-8(data-aos="zoom-in")
+            img.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-9.svg", alt="alt")
+        .col-12.col-lg-8(data-aos="zoom-in")
           .tarjeta.bgr_1.p-4
             SlyderA(tipo="b")
               .row.justify-content-center
-                .col-12.col-md-10
+                .col-12.col-lg-10
                   p.mb-5.text-center.text-bold <em>Affirmative structure - Verb “to be”</em> / Verbo <em>“to be”</em>
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-10.svg', alt='Texto que describa la imagen')
@@ -311,9 +311,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-11.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-20.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-20.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -324,9 +324,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 Sara estudió inglés durante mucho tiempo.
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-22.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-22.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -342,9 +342,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-19.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-19.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -355,9 +355,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 Sandra no fue una estudiante hace varios años.
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-23.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-23.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -373,9 +373,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -386,9 +386,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 Sandra no estudió inglés durante mucho tiempo.
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-23.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-23.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -405,9 +405,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-14.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -418,9 +418,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 ¿Sandra era estudiante hace varios años?
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -437,9 +437,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-15.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -450,9 +450,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 ¿Sandra estudió inglés durante mucho tiempo?
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -469,9 +469,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-16.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -482,9 +482,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 ¿Cuándo fue una estudiante Sandra?
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -501,9 +501,9 @@
                   figure.mb-5
                     img(src='@/assets/curso/tema2/t2-17.svg', alt='Texto que describa la imagen')
                   .row.mb-3
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-18.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
@@ -514,9 +514,9 @@
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                         p.mb-0 ¿Dónde estudió inglés Sandra durante mucho tiempo?
                   .row
-                    .col-md-3
-                      figure
-                        img(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
+                    .col-md-3.mb-3.mb-lg-0
+                      figure.d-flex.justify-content-center
+                        img.img140(src='@/assets/curso/tema2/t2-21.svg', alt='Texto que describa la imagen')
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
