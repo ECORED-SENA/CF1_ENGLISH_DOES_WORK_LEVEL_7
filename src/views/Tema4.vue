@@ -44,7 +44,7 @@
     span / En la siguiente tabla, veremos cómo usar algunos de los conectores más comunes en el tiempo pasado para conectar una acción o un evento a un punto en el tiempo; para unir dos cláusulas (u oraciones más pequeñas) para crear una gran oración compleja.
 
     .row.mb-3.mt-5.justify-content-center
-      .col-12.col-md-8(data-aos="zoom-in")
+      .col-12.col-md-10.col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Tabla 1
           span Conectores
@@ -116,9 +116,9 @@
       h2 4.2 <em>Expressions in the past</em> (Expresiones del pasado)
     
     .row.mb-5
-      .col-12.col-md-7.mb-3.mb-md-0(data-aos="flip-up")
+      .col-12.col-lg-7(data-aos="flip-up")
         TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo4")
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-12.col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/t4-8.png", alt="alt")
     
@@ -136,9 +136,9 @@
     span.text-bold.etiqueta <em>How to use</em>
     
     .row.mb-5.mt-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-lg-4.mb-3.mb-lg-0
         TraduccionAudio.color-acento-contenido.pst_9.mb-5(:dialogo="dialogo5")(data-aos="flip-up")
-      .col-12.col-md-8
+      .col-12.col-lg-8
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
           .tarjeta--boton.bgr_18.p-4.h-100
             figure.d-flex.justify-content-center

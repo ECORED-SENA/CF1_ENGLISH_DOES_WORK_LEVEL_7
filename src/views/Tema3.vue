@@ -121,14 +121,14 @@
     .bg_grad-07.pst_8
       span.text-bold.etiqueta <em>How to use</em>
       .row.mt-3.mb-5
-        .col-12.col-md-4(data-aos="flip-up")
+        .col-12.col-lg-4(data-aos="flip-up")
           .bgr_2.p-4.mb-3
             TraduccionAudio.color-acento-contenido(:dialogo="dialogo3")
-        .col-12.col-md-8(data-aos="zoom-in")
+        .col-12.col-lg-8(data-aos="zoom-in")
           .tarjeta.bgr_1.p-4
             SlyderA(tipo="b")
               .row.justify-content-center
-                .col-12.col-md-10
+                .col-12.col-lg-10
                   p.mb-0.text-center.text-bold <em>Affirmative structure</em>
                   p.mb-5.text-center.text-bold <em>Other verbs</em> / Otros verbos
                   figure.mb-5
