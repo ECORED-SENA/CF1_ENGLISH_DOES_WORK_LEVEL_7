@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="173" viewBox="0 0 201 173">
+  <g id="Grupo_169992" data-name="Grupo 169992" transform="translate(-775 -452.394)">
+    <rect id="Rectángulo_42860" data-name="Rectángulo 42860" width="201" height="173" transform="translate(775 452.394)" fill="none"/>
+    <g id="Grupo_173539" data-name="Grupo 173539" transform="translate(804 457.394)">
+      <path id="Trazado_124348" data-name="Trazado 124348" d="M0,245.373l36.1,19.415V205.175L0,190.135Z" transform="translate(0 -115.756)" fill="#d19462"/>
+      <path id="Trazado_124349" data-name="Trazado 124349" d="M154.346,249.263,92.272,265.214V205.741l62.074-14.906Z" transform="translate(-56.176 -116.182)" fill="#996042"/>
+      <path id="Trazado_124350" data-name="Trazado 124350" d="M0,167.3l36.1,14.949L98.58,167.57l-36.1-14.949Z" transform="translate(0 -92.917)" fill="#e9b375"/>
+      <line id="Línea_192" data-name="Línea 192" x1="62.122" y2="14.825" transform="translate(15.673 66.045)" fill="none" stroke="#b26e4b" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_177410" data-name="Trazado 177410" d="M80.239,112.167l-36.1-19.415V37.514l36.1,15.04Z" transform="translate(0.125 51.814)" fill="#df9e68"/>
+      <path id="Trazado_177409" data-name="Trazado 177409" d="M198.49,96.642l-62.074,15.952V53.12L198.49,38.214Z" transform="translate(-56.051 51.388)" fill="#b06e4c"/>
+      <path id="Trazado_177411" data-name="Trazado 177411" d="M106.628,0,44.144,14.676l36.1,14.949,62.485-14.676Z" transform="translate(0.125 74.653)" fill="#e9b375"/>
+      <line id="Línea_1418" data-name="Línea 1418" x1="62.122" y2="14.825" transform="translate(59.942 80.994)" fill="none" stroke="#b26e4b" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Grupo_173540" data-name="Grupo 173540">
+        <path id="Trazado_124351" data-name="Trazado 124351" d="M80.239,112.167l-36.1-19.415V37.514l36.1,15.04Z" transform="translate(-26.875 -22.839)" fill="#df9e68"/>
+        <path id="Trazado_124352" data-name="Trazado 124352" d="M198.49,96.642l-62.074,15.952V53.12L198.49,38.214Z" transform="translate(-83.051 -23.265)" fill="#b06e4c"/>
+        <path id="Trazado_124353" data-name="Trazado 124353" d="M106.628,0,44.144,14.676l36.1,14.949,62.485-14.676Z" transform="translate(-26.875 0)" fill="#e9b375"/>
+        <line id="Línea_193" data-name="Línea 193" x1="62.122" y2="14.825" transform="translate(32.941 6.341)" fill="none" stroke="#b26e4b" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
