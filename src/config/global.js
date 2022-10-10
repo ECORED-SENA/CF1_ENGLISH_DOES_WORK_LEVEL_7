@@ -159,7 +159,7 @@ export default {
       referencia:
         '<em>British Council | LearnEnglish Teens</em>. (2017). <em>Grammar Snacks: Past simple – irregular verbs</em>',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PgsG98vByiw&t=10s',
+      link: 'https://www.youtube.com/watch?v=aPgtdZ_urZk',
     },
     {
       tema: '<em>Use of “Used to”</em> (Uso del "<em>Used to</em>")',
@@ -298,14 +298,55 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Daniel Polanco',
+        cargo: 'Validación Diseño <em>web</em>',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Carlos Andrés Díaz Pinto',
         cargo: 'Desarrollo <em>front-end</em>',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andres Botello',
+        cargo: 'Validación de Maquetación',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -317,6 +358,11 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Edwin Mauricio Lamprea Hernández',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

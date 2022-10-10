@@ -80,7 +80,7 @@
                 img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
             .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
               div
-                p.mb-0 <em>Warning # 1</em>
+                p.mb-0 <em>Warning #1</em>
                 p.mb-0.colr_2 Advertencia #1
           span.colr <em>"Used to" is not used for things that happened only once, for this the simple past is used. </em> 
           span.colr_2 / No se utiliza "<em>used to</em>" para cosas que ocurrieron una sola vez, para esto se utiliza el pasado simple.
@@ -104,15 +104,15 @@
                 img.img90(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
             .col-12.col-lg-3.d-flex.align-items-end.justify-content-center
               div
-                p.mb-0 <em>Warning # 1</em>
-                p.mb-0.colr_2 Advertencia #1
+                p.mb-0 <em>Warning #2</em>
+                p.mb-0.colr_2 Advertencia #2
           span.colr <em>"Used to" is an expression that is only used in the past simple. It has no present form. </em> 
           span.colr_2 / <em>"Used to"</em> es una expresión que solo es usada en pasado simple. No tiene forma en presente.
 
           p.mt-3.mb-3.text-bold.text-center <em>For example</em> / Por ejemplo:
 
           TarjetaAudio.color-acento-botones.mb-3.bgr_8(
-            texto="<em> ❌ I use to study here. – Present tense, this is wrong <br>✅ I study here. – Present tense, this is correct <br>✅ I used to study here. – Past tense, this is </em>"   
+            texto="<em> ❌ I use to study here. – Present tense, this is wrong <br>✅ I study here. – Present tense, this is correct <br>✅ I used to study here. – Past tense, this is correct</em>"   
             :audio="require('@/assets/componentes/audios/dialogo9/04.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -159,7 +159,7 @@
                     .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
                       div
                         TarjetaAudio.color-acento-botones.bgr_10.mb-3(
-                          texto="You <i>didn’t</i> <em>use to</em> <i>use to practice extreme sports. </i>"  
+                          texto="You <i>didn’t</i> <em>use to</em> <i>practice extreme sports. </i>"  
                           :audio="require('@/assets/componentes/audios/dialogo9/06.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -354,7 +354,7 @@ export default {
       dialogo: [
         {
           textoIng: '<em>Nicole, how was your hike last week?</em>',
-          textoEsp: 'Nicole, ¿cómo estuvo tu caminata la semana pasada?.',
+          textoEsp: 'Nicole, ¿cómo estuvo tu caminata la semana pasada?',
           audio: require('@/assets/componentes/audios/dialogo8/01.mp3'),
         },
         {

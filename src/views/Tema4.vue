@@ -259,7 +259,7 @@ export default {
     dialogo5: [
       {
         textoIng:
-          '<em>When it comes to saying when something happened, it can be done by pointing to a defined point in time, like <b>"last year, yesterday, two weeks ago"</b>, or it can be done by pointing to an indefinite point in time, like <b>"a long time ago, the other day, ages ago."</b> Let’s see some of the most common past expressions:</b>',
+          '<em>When it comes to saying when something happened, it can be done by pointing to a defined point in time, like <b>"last year, yesterday, two weeks ago"</b>, or it can be done by pointing to an indefinite point in time, like <b>"a long time ago, the other day, ages ago".</b> Let’s see some of the most common past expressions:</b>',
         textoEsp:
           'A la hora de decir cuándo ocurrió algo, se puede hacer señalando un punto definido en el tiempo, como "last year, yesterday, two weeks ago", o se puede hacer señalando un punto indefinido en el tiempo, como "a long time ago, the other day, ages ago". Veamos algunas de las expresiones más comunes del pasado:',
       },
